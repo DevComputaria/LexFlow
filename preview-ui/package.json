@@ -8,7 +8,9 @@
     "build": "node scripts/build-static-data.cjs && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "data": "node scripts/build-static-data.cjs"
+    "data": "node scripts/build-static-data.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "lucide-react": "^0.480.0",
@@ -19,12 +21,17 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/node": "^22.19.19",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "@types/react-syntax-highlighter": "^15.5.13",
+    "@vitejs/plugin-react": "^6.0.2",
     "js-yaml": "^4.1.1",
+    "jsdom": "^29.1.1",
     "tailwindcss": "^4.1.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.7"
   }
 }
