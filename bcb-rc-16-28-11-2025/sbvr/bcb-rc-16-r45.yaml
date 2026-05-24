@@ -1,0 +1,47 @@
+id: bcb-rc-16-r45
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 8o, paragrafo 4o, incisos I e II.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que parametros de relevancia para notificacao de terceirizacao estejam nos criterios de contratacao e considerem classificacao de relevancia de servicos de nuvem/processamento quando existente."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "Os parametros [...] devem: I - estar contemplados nos criterios [...] II - considerar [...] classificacao quanto a relevancia [...]"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  - Aplicar condicoes expressas no texto da regra e na fonte normativa.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-07
+    titulo: "Parametros para definir relevancia de servico a ser notificado"
+    descricao: "criterios de relevancia podem divergir entre instituicoes por apetite de risco e modelo de negocio"

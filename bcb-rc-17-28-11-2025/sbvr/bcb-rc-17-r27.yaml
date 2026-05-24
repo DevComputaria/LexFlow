@@ -1,0 +1,46 @@
+id: bcb-rc-17-r27
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 4o, inciso I
+modalidade: permitido
+regra_sbvr: "E permitido nao elaborar plano de adequacao quando a adequacao envolver apenas alteracao do nome empresarial."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no paragrafo 1o nao se aplica: I - a situacao em que a adequacao envolve apenas a alteracao do nome empresarial."
+keywords: [dispensa_plano, alteracao_nome_empresarial, excecao]
+vocabulario_conceitos:
+  - termo: alteracao do nome empresarial
+    conceito: Mudanca do nome empresarial para adequacao normativa.
+  - termo: dispensa de plano
+    conceito: Hipotese em que nao se exige plano de adequacao.
+  - termo: adequacao
+    conceito: Ajuste para conformidade com a resolucao.
+condicoes:
+  - A unica alteracao necessaria deve ser o nome empresarial.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

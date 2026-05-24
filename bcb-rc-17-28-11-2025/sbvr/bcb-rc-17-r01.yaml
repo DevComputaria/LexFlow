@@ -1,0 +1,43 @@
+id: bcb-rc-17-r01
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 1o, caput
+modalidade: obrigado
+regra_sbvr: "E obrigatorio disciplinar a nomenclatura e a forma de apresentacao ao publico das instituicoes autorizadas a funcionar pelo BCB."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "Esta Resolucao Conjunta disciplina a nomenclatura e a forma de apresentacao ao publico das instituicoes autorizadas a funcionar pelo Banco Central do Brasil."
+keywords: [escopo, nomenclatura, apresentacao_ao_publico, instituicao_autorizada, bcb]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB.
+  - termo: nomenclatura
+    conceito: Nome empresarial, nome fantasia, marca e dominio de internet.
+  - termo: apresentacao ao publico
+    conceito: Conteudo dos canais de comunicacao e atendimento.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

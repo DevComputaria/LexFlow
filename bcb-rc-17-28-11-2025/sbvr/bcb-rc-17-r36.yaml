@@ -1,0 +1,43 @@
+id: bcb-rc-17-r36
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 14
+modalidade: obrigado
+regra_sbvr: "E obrigatorio considerar a resolucao em vigor na data de sua publicacao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "Esta Resolucao Conjunta entra em vigor na data de sua publicacao."
+keywords: [vigencia, entrada_em_vigor, publicacao]
+vocabulario_conceitos:
+  - termo: entrada em vigor
+    conceito: Inicio de eficacia da norma.
+  - termo: data de publicacao
+    conceito: Data de publicacao no DOU.
+  - termo: vigencia normativa
+    conceito: Estado de eficacia juridica da resolucao.
+condicoes: []
+periodo_tempo:
+  existe: true
+  descricao: Vigencia imediata na publicacao.
+  marco_inicial: 2025-12-01
+  prazo: imediato
+  data_limite: null
+ambiguidades_relacionadas: []

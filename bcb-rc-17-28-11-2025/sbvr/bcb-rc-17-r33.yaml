@@ -1,0 +1,47 @@
+id: bcb-rc-17-r33
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 11
+modalidade: obrigado
+regra_sbvr: "E obrigatorio aplicar os Capitulos I, II, III e IV tambem aos pedidos de autorizacao ja protocolizados no BCB."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O disposto nos Capitulos I, II, III e IV desta Resolucao Conjunta aplica-se inclusive aos pedidos de autorizacao ja protocolizados no Banco Central do Brasil."
+keywords: [aplicacao_imediata, pedidos_protocolizados, capitulos_I_II_III_IV]
+vocabulario_conceitos:
+  - termo: pedidos ja protocolizados
+    conceito: Processos de autorizacao submetidos antes da vigencia.
+  - termo: aplicacao normativa
+    conceito: Incidencia das regras a situacoes em tramite.
+  - termo: BCB
+    conceito: Autoridade supervisora e autorizadora.
+condicoes:
+  - Aplica-se aos pedidos de autorizacao ja em tramitacao no BCB.
+periodo_tempo:
+  existe: true
+  descricao: Aplicacao desde a entrada em vigor da resolucao.
+  marco_inicial: 2025-12-01
+  prazo: imediato
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-09
+    titulo: Pedidos ja protocolizados
+    descricao: nao define marco processual detalhado para exigencias complementares em processos em andamento.

@@ -1,0 +1,46 @@
+id: bcb-rc-17-r03
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 3o, caput
+modalidade: proibido
+regra_sbvr: "E proibido usar, na nomenclatura, termo que sugira atividade ou tipo de instituicao sem autorizacao de funcionamento especifica."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "E vedado [...] utilizar, em sua nomenclatura, termo que sugira, literalmente ou por semelhanca morfologica ou fonetica, atividade ou tipo de instituicao para a qual nao tenha autorizacao de funcionamento especifica."
+keywords: [vedacao, nomenclatura, semelhanca_morfologica, semelhanca_fonetica, autorizacao_especifica]
+vocabulario_conceitos:
+  - termo: termo
+    conceito: Palavra, fragmento, expressao ou frase usada na nomenclatura.
+  - termo: nomenclatura
+    conceito: Nome empresarial, nome fantasia, marca e dominio de internet.
+  - termo: autorizacao de funcionamento especifica
+    conceito: Autorizacao para atividade ou tipo institucional especifico.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-02
+    titulo: "\"Sugestao\" por semelhanca morfologica ou fonetica"
+    descricao: falta metodo formal para afericao de semelhanca e limiar de aceitacao.

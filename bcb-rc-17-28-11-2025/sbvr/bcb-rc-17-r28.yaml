@@ -1,0 +1,44 @@
+id: bcb-rc-17-r28
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 4o, inciso II
+modalidade: permitido
+regra_sbvr: "E permitido nao elaborar plano de adequacao para adequacao de contratos de correspondentes no pais ou de parcerias, observando o Art. 8o, paragrafo 1o."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no paragrafo 1o nao se aplica: II - a adequacao dos contratos de correspondentes no pais ou de parcerias, que deve observar o disposto no art. 8o, paragrafo 1o, desta Resolucao Conjunta."
+keywords: [dispensa_plano, contratos, correspondentes, parcerias, art8_paragrafo1]
+vocabulario_conceitos:
+  - termo: contratos de correspondentes no pais
+    conceito: Contratos para atuacao de correspondente em territorio nacional.
+  - termo: parcerias
+    conceito: Relacoes contratuais para oferta de produtos e servicos.
+  - termo: dispensa de plano
+    conceito: Hipotese em que nao se exige plano de adequacao.
+condicoes:
+  - Deve observar os requisitos e prazo do Art. 8o, paragrafo 1o.
+periodo_tempo:
+  existe: true
+  descricao: Adequacao segue o prazo do Art. 8o, paragrafo 1o.
+  marco_inicial: 2025-12-01
+  prazo: P1Y
+  data_limite: 2026-12-01
+ambiguidades_relacionadas: []

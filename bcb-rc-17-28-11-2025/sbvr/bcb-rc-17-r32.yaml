@@ -1,0 +1,44 @@
+id: bcb-rc-17-r32
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 10, paragrafo unico
+modalidade: permitido
+regra_sbvr: "E permitido alterar estatuto ou contrato social exclusivamente para alterar o nome empresarial para fins de adequacao a resolucao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "Fica autorizada a alteracao do estatuto ou do contrato social que consista exclusivamente na alteracao do nome empresarial da instituicao para adequacao ao disposto nesta Resolucao Conjunta."
+keywords: [estatuto, contrato_social, alteracao_nome_empresarial, permissao]
+vocabulario_conceitos:
+  - termo: estatuto ou contrato social
+    conceito: Documento societario da instituicao.
+  - termo: alteracao exclusiva de nome empresarial
+    conceito: Alteracao societaria limitada ao nome empresarial.
+  - termo: adequacao
+    conceito: Ajuste para conformidade com a resolucao.
+condicoes:
+  - Alteracao societaria deve ser exclusivamente para mudanca do nome empresarial.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

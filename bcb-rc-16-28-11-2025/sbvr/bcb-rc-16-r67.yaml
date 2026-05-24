@@ -1,0 +1,43 @@
+id: bcb-rc-16-r67
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 17, caput, incisos I a III.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio instituir mecanismos de acompanhamento e controle para efetividade da resolucao, incluindo processos/testes/trilhas, metricas/indicadores e identificacao/correcao de deficiencias."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes financeiras, as instituicoes de pagamento e as demais instituicoes autorizadas a funcionar pelo Banco Central do Brasil, na condicao de prestadoras de servicos de BaaS e de entidades tomadoras de servicos de BaaS, devem instituir mecanismos de acompanhamento e de controle com vistas a assegurar a efetividade do cumprimento do disposto nesta Resolucao Conjunta, incluindo: I - a definicao de processos, testes e trilhas de auditoria; II - a definicao de metricas e indicadores adequados; e III - a identificacao e a correcao de eventuais deficiencias."
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

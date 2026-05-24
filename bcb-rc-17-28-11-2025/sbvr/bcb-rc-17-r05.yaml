@@ -1,0 +1,44 @@
+id: bcb-rc-17-r05
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 3o, paragrafo 1o, inciso II
+modalidade: proibido
+regra_sbvr: "E proibido usar nome de conglomerado que contenha termo de tipo institucional sujeito a autorizacao do BCB que nao integre o conglomerado."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "[...] II - o nome do conglomerado nao contenha termo que identifique ou caracterize tipo de instituicao sujeita a autorizacao pelo Banco Central do Brasil que nao integre o conglomerado."
+keywords: [conglomerado_prudencial, vedacao, termo_identificador, autorizacao_bcb]
+vocabulario_conceitos:
+  - termo: conglomerado prudencial
+    conceito: Conjunto de instituicoes para fins prudenciais.
+  - termo: termo identificador
+    conceito: Termo que caracteriza tipo de instituicao regulada.
+  - termo: autorizacao pelo BCB
+    conceito: Ato autorizativo para tipo institucional.
+condicoes:
+  - Regra aplicavel a instituicoes integrantes de conglomerado prudencial.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

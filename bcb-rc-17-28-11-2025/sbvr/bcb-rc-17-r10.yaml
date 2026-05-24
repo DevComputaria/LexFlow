@@ -1,0 +1,47 @@
+id: bcb-rc-17-r10
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 5o, paragrafo 2o
+modalidade: permitido
+regra_sbvr: "E permitido ao conglomerado prudencial usar, na apresentacao ao publico, termo ou nomenclatura de instituicao autorizada que integre o conglomerado."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "E permitido ao conglomerado prudencial utilizar, em sua apresentacao ao publico, termo ou nomenclatura de uma das instituicoes autorizadas [...] que integrem o conglomerado."
+keywords: [conglomerado_prudencial, permissao, apresentacao_ao_publico, nomenclatura]
+vocabulario_conceitos:
+  - termo: conglomerado prudencial
+    conceito: Conjunto de instituicoes para fins prudenciais.
+  - termo: nomenclatura
+    conceito: Nome empresarial, nome fantasia, marca e dominio de internet.
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB.
+condicoes:
+  - O termo ou nomenclatura deve ser de instituicao integrante do conglomerado.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

@@ -1,0 +1,43 @@
+id: bcb-rc-16-r72
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 19, inciso I.
+modalidade: proibido
+regra_sbvr: "E proibido que cooperativas de credito e sociedades de arrendamento mercantil atuem como prestadoras de BaaS."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "Fica vedado: I - as cooperativas de credito e as sociedades de arrendamento mercantil atuar como instituicoes prestadoras de servicos de BaaS"
+keywords: [sbvr, rc16, bcb, proibido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

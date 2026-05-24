@@ -1,0 +1,46 @@
+id: bcb-rc-17-r02
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 2o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio usar, no nome empresarial, termos com referencia clara ao objeto da autorizacao de funcionamento concedida pelo BCB."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem utilizar, em seu nome empresarial, termos que estabelecam clara referencia ao objeto da autorizacao para funcionamento concedida pelo Banco Central do Brasil."
+keywords: [nome_empresarial, referencia_clara, autorizacao_funcionamento, bcb]
+vocabulario_conceitos:
+  - termo: nome empresarial
+    conceito: Elemento formal da nomenclatura da instituicao.
+  - termo: autorizacao de funcionamento especifica
+    conceito: Autorizacao para atividade ou tipo institucional especifico.
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).

@@ -1,0 +1,45 @@
+id: bcb-rc-16-r31
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 6o, paragrafo unico.
+modalidade: permitido
+regra_sbvr: "E permitido afastar as vedacoes dos incisos II a V do art. 6o quando a tomadora for instituicao do art. 1o do mesmo conglomerado prudencial da prestadora."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "As vedacoes [...] incisos II, III, IV e V [...] nao se aplicam quando a entidade tomadora [...] for instituicao [...] do mesmo conglomerado prudencial [...]"
+keywords: [sbvr, rc16, bcb, permitido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  - Aplicar condicoes expressas no texto da regra e na fonte normativa.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

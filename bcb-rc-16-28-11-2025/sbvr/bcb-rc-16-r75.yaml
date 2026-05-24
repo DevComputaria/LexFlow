@@ -1,0 +1,43 @@
+id: bcb-rc-16-r75
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 21, incisos I e II.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio manter a disposicao do BCB por, no minimo, 5 anos (documentacao do art. 7o e contratos do art. 8o, contados da extincao do contrato) e por, no minimo, 10 anos (dados/registros/informacoes dos mecanismos do Capitulo VII, contados de cada aplicacao)."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "[...] devem manter a disposicao [...] I - pelo prazo minimo de cinco anos [...] II - pelo prazo minimo de dez anos [...]"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: true
+  descricao: "Guarda minima de 5 anos e 10 anos conforme tipo de documento."
+  marco_inicial: evento_relevante
+  prazo: P5Y_e_P10Y
+  data_limite: null
+ambiguidades_relacionadas:
+  []

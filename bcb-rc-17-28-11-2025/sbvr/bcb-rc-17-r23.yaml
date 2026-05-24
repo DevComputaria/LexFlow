@@ -1,0 +1,46 @@
+id: bcb-rc-17-r23
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 1o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio elaborar plano de adequacao quando a instituicao estiver em desacordo com a resolucao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes que estejam em desacordo com o disposto nesta Resolucao Conjunta devem elaborar plano de adequacao."
+keywords: [plano_de_adequacao, desconformidade, obrigacao, conformidade]
+vocabulario_conceitos:
+  - termo: plano de adequacao
+    conceito: Plano formal para tratar desconformidades.
+  - termo: desacordo
+    conceito: Situacao de nao conformidade com a resolucao.
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB.
+condicoes:
+  - A instituicao deve estar em desacordo com a resolucao.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

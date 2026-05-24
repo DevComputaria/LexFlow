@@ -1,0 +1,43 @@
+id: bcb-rc-16-r22
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 5o, caput.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que instituicoes do art. 1o assegurem que politicas, estrategias e estruturas de riscos contenham regras e criterios para prestacao de BaaS."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "devem assegurar que suas politicas, estrategias e estruturas para gerenciamento de riscos [...] contenham regras e criterios para a prestacao de servicos de BaaS"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

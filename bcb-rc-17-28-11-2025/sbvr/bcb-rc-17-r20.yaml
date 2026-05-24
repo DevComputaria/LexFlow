@@ -1,0 +1,44 @@
+id: bcb-rc-17-r20
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 8o, paragrafo 2o, inciso I
+modalidade: permitido
+regra_sbvr: "E permitido manter contratos ou parcerias com entidades promotoras de microcredito ao amparo da legislacao do PNMPO e da economia solidaria, sem aplicacao da vedacao do Art. 8o, caput."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no caput nao se aplica: I - aos contratos ou parcerias firmados com entidades promotoras de microcredito, ao amparo da legislacao que dispoe sobre o Programa Nacional de Microcredito Produtivo Orientado - PNMPO [...]."
+keywords: [excecao, pnmppo, microcredito, economia_solidaria, permissao]
+vocabulario_conceitos:
+  - termo: entidade promotora de microcredito
+    conceito: Entidade enquadrada na legislacao do PNMPO.
+  - termo: excecao normativa
+    conceito: Hipotese em que a vedacao do caput nao se aplica.
+  - termo: parceria
+    conceito: Relacao contratual para oferta relacionada.
+condicoes:
+  - Contrato/parceria deve estar ao amparo da legislacao indicada no inciso I.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

@@ -1,0 +1,47 @@
+id: bcb-rc-16-r30
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 6o, inciso VI.
+modalidade: proibido
+regra_sbvr: "E proibido formalizar contrato de BaaS com tomadora que use em sua nomenclatura termos caracteristicos de instituicoes do SFN/SPB, salvo quando a tomadora for instituicao autorizada pelo BCB e observada regulamentacao especifica."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "E vedado [...] com entidade tomadora [...] que, em sua nomenclatura, empregue termos caracteristicos [...] exceto em caso de a entidade tomadora ser instituicao autorizada [...]"
+keywords: [sbvr, rc16, bcb, proibido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  - Aplicar condicoes expressas no texto da regra e na fonte normativa.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-05
+    titulo: "Nocao de termos \"caracteristicos\" na nomenclatura da tomadora"
+    descricao: "ausencia de lista taxativa objetiva para termos vedados e expressao similar em idioma estrangeiro"

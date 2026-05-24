@@ -1,0 +1,47 @@
+id: bcb-rc-17-r31
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 10, inciso II
+modalidade: obrigado
+regra_sbvr: "E obrigatorio comunicar ao BCB a alteracao do nome empresarial em ate 90 dias apos sua efetivacao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "A alteracao do nome empresarial [...] deve: II - ser comunicada ao Banco Central do Brasil no prazo de noventa dias apos a sua efetivacao."
+keywords: [comunicacao_ao_bcb, alteracao_nome_empresarial, prazo_90_dias]
+vocabulario_conceitos:
+  - termo: efetivacao da alteracao
+    conceito: Data em que a alteracao do nome empresarial se torna efetiva.
+  - termo: comunicacao ao BCB
+    conceito: Envio formal da informacao de alteracao ao regulador.
+  - termo: prazo de 90 dias
+    conceito: Limite para a comunicacao apos a efetivacao.
+condicoes:
+  - A alteracao do nome empresarial deve ter sido efetivada.
+periodo_tempo:
+  existe: true
+  descricao: Comunicacao da alteracao do nome empresarial.
+  marco_inicial: data_da_efetivacao
+  prazo: P90D
+  data_limite: movel
+ambiguidades_relacionadas:
+  - id: A-08
+    titulo: Coordenacao entre comunicacoes de 90 dias
+    descricao: pode haver sobreposicao de reportes conforme o momento da efetivacao do nome empresarial.

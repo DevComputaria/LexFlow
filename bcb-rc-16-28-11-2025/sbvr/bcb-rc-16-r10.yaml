@@ -1,0 +1,45 @@
+id: bcb-rc-16-r10
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 4o, caput, inciso II.
+modalidade: permitido
+regra_sbvr: "E permitido incluir no escopo servicos de pagamento realizados por meio das contas do inciso I."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "II - prestacao de servicos de pagamento realizados por meio das contas de que trata o inciso I"
+keywords: [sbvr, rc16, bcb, permitido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-02
+    titulo: "Escopo exclusivo do art. 4o e classificacao de servicos inovadores"
+    descricao: "enquadramento de servicos novos pode variar ate detalhamento adicional do BCB"

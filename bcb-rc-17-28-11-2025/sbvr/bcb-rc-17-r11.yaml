@@ -1,0 +1,47 @@
+id: bcb-rc-17-r11
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 5o, paragrafo 3o
+modalidade: permitido
+regra_sbvr: "E permitido a cooperativa de credito e instituicoes integrantes de sistema cooperativo usar, na apresentacao ao publico, termo que identifique o sistema cooperativo a que pertencem."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "E permitido a cooperativa de credito e as demais instituicoes integrantes de sistema cooperativo utilizar, em sua apresentacao ao publico, termo que identifique o sistema cooperativo a que pertenca."
+keywords: [cooperativa_credito, sistema_cooperativo, apresentacao_ao_publico, permissao]
+vocabulario_conceitos:
+  - termo: cooperativa de credito
+    conceito: Instituicao cooperativa autorizada.
+  - termo: sistema cooperativo
+    conceito: Sistema de pertencimento institucional cooperativo.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+condicoes:
+  - Aplicavel a cooperativa de credito e demais instituicoes de sistema cooperativo.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

@@ -1,0 +1,50 @@
+id: bcb-rc-17-r13
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 7o, inciso I
+modalidade: obrigado
+regra_sbvr: "E obrigatorio fazer constar, na apresentacao ao publico e de forma clara, as atividades especificas objeto de autorizacao pelo BCB."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem fazer constar, em sua apresentacao ao publico, de forma clara: I - as atividades especificas objeto de autorizacao pelo Banco Central do Brasil."
+keywords: [apresentacao_ao_publico, atividades_especificas, autorizacao_bcb, clareza]
+vocabulario_conceitos:
+  - termo: atividades especificas autorizadas
+    conceito: Atividades cobertas pela autorizacao de funcionamento da instituicao.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+  - termo: forma clara
+    conceito: Comunicacao compreensivel para clientes e usuarios.
+condicoes:
+  - A informacao deve estar de forma clara.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

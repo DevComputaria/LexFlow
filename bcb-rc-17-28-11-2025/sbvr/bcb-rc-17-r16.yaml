@@ -1,0 +1,49 @@
+id: bcb-rc-17-r16
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 7o, paragrafo unico
+modalidade: obrigado
+regra_sbvr: "E obrigatorio aplicar as obrigacoes do Art. 7o, caput, inclusive quando a apresentacao ao publico ocorrer por contratos de correspondentes no pais ou por parcerias."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no caput se aplica inclusive quando a apresentacao ao publico for disponibilizada por meio de contratos de correspondentes no pais ou de parcerias."
+keywords: [extensao_de_aplicacao, correspondente_no_pais, parceria, apresentacao_ao_publico]
+vocabulario_conceitos:
+  - termo: correspondente no pais
+    conceito: Entidade contratada para atuar como correspondente.
+  - termo: parceria
+    conceito: Relacao contratual para atividades ligadas a oferta de produtos e servicos.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+condicoes:
+  - Aplicacao inclusive em canais operados por correspondentes e parceiros.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

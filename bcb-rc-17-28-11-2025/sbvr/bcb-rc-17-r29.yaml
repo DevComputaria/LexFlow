@@ -1,0 +1,47 @@
+id: bcb-rc-17-r29
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 5o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio comunicar ao BCB, em ate 90 dias da entrada em vigor e na forma regulamentar especifica, a condicao de aderencia ou de enquadramento na hipotese de alteracao apenas do nome empresarial."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] aderentes [...] ou que se enquadrem na situacao de que trata o inciso I do paragrafo 4o devem comunicar essa condicao ao Banco Central do Brasil, no prazo de noventa dias, contado a partir da data da entrada em vigor [...], na forma da regulamentacao especifica."
+keywords: [comunicacao_ao_bcb, aderencia, prazo_90_dias, regulamentacao_especifica]
+vocabulario_conceitos:
+  - termo: comunicacao ao BCB
+    conceito: Envio formal de informacao de status de conformidade.
+  - termo: aderencia
+    conceito: Condicao de conformidade com a resolucao.
+  - termo: regulamentacao especifica
+    conceito: Norma procedimental para forma de comunicacao.
+condicoes:
+  - Instituicao aderente ou na hipotese de alteracao apenas do nome empresarial.
+periodo_tempo:
+  existe: true
+  descricao: Comunicacao de status ao BCB.
+  marco_inicial: 2025-12-01
+  prazo: P90D
+  data_limite: 2026-03-01
+ambiguidades_relacionadas:
+  - id: A-08
+    titulo: Coordenacao entre comunicacoes de 90 dias
+    descricao: pode haver sobreposicao de reportes conforme o momento da efetivacao do nome empresarial.

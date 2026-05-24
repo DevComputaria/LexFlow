@@ -1,0 +1,49 @@
+id: bcb-rc-17-r07
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 4o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio usar, na apresentacao ao publico, termos que deixem claro aos clientes e usuarios o tipo de instituicao objeto da autorizacao concedida pelo BCB."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem utilizar, em sua apresentacao ao publico, termos que deixem claro aos clientes e usuarios o tipo de instituicao objeto da autorizacao para funcionamento concedida pelo Banco Central do Brasil."
+keywords: [apresentacao_ao_publico, clareza, clientes, usuarios, tipo_instituicao]
+vocabulario_conceitos:
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+  - termo: clientes e usuarios
+    conceito: Publico destinatario das informacoes.
+  - termo: tipo de instituicao
+    conceito: Classificacao institucional autorizada pelo BCB.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

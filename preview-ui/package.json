@@ -1,0 +1,30 @@
+{
+  "name": "lexflow-preview-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-static-data.cjs && next dev",
+    "build": "node scripts/build-static-data.cjs && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "data": "node scripts/build-static-data.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.480.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-syntax-highlighter": "^15.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.19.19",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "js-yaml": "^4.1.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
+  }
+}

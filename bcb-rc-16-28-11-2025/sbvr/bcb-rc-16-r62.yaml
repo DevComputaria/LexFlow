@@ -1,0 +1,45 @@
+id: bcb-rc-16-r62
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 14, paragrafo unico, incisos I e II.
+modalidade: permitido
+regra_sbvr: "E permitido que a tomadora apresente informacoes quando atuar com mais de uma prestadora e se identifique de forma acessivel e visivel ao cliente."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no inciso I [...] nao restringe: I - a apresentacao das informacoes pela entidade tomadora [...] II - a identificacao da entidade tomadora [...]"
+keywords: [sbvr, rc16, bcb, permitido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  - Aplicar condicoes expressas no texto da regra e na fonte normativa.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

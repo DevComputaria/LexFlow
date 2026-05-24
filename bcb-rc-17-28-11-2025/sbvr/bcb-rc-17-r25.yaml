@@ -1,0 +1,44 @@
+id: bcb-rc-17-r25
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 2o, inciso II
+modalidade: obrigado
+regra_sbvr: "E obrigatorio elaborar e apresentar o plano de adequacao ao BCB no prazo de 120 dias da entrada em vigor."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O plano de adequacao [...] deve: II - ser elaborado e apresentado ao Banco Central do Brasil no prazo de cento e vinte dias, contado a partir da data da entrada em vigor desta Resolucao Conjunta."
+keywords: [plano_de_adequacao, apresentacao_ao_bcb, prazo_120_dias, entrada_em_vigor]
+vocabulario_conceitos:
+  - termo: plano de adequacao
+    conceito: Plano formal para tratar desconformidades.
+  - termo: entrada em vigor
+    conceito: Marco inicial de contagem de prazo.
+  - termo: prazo de 120 dias
+    conceito: Prazo maximo para elaborar e apresentar o plano.
+condicoes:
+  - Aplicavel quando houver obrigacao de plano de adequacao.
+periodo_tempo:
+  existe: true
+  descricao: Elaboracao e apresentacao do plano de adequacao.
+  marco_inicial: 2025-12-01
+  prazo: P120D
+  data_limite: 2026-03-31
+ambiguidades_relacionadas: []

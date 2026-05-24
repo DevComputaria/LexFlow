@@ -1,0 +1,45 @@
+id: bcb-rc-16-r47
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 8o, paragrafo 6o, inciso I, alineas a e b, itens 1 e 2.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que contrato preveja, em regime de resolucao da prestadora, acesso pleno do responsavel ao acervo contratual/informacional e notificacao previa de interrupcao com antecedencia minima de 30 dias, incluindo possibilidade de prazo adicional de 30 dias e aplicacao tambem quando houver inadimplemento de remuneracao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O contrato [...] deve prever [...] I - para o caso da decretacao [...] a) obrigacao de conceder pleno e irrestrito acesso [...] b) obrigacao de notificacao previa [...] com pelo menos trinta dias [...]"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  - Aplicar condicoes expressas no texto da regra e na fonte normativa.
+periodo_tempo:
+  existe: true
+  descricao: "Notificacao previa minima de 30 dias com possivel extensao adicional de 30 dias."
+  marco_inicial: intencao_interrupcao
+  prazo: P30D_com_extensao_P30D
+  data_limite: null
+ambiguidades_relacionadas:
+  []

@@ -1,0 +1,47 @@
+id: bcb-rc-17-r21
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 8o, paragrafo 2o, inciso II
+modalidade: permitido
+regra_sbvr: "E permitido manter contratos relacionados a servicos acessorios ou operacionais que viabilizem a oferta de produtos e servicos financeiros e de pagamento, sem aplicacao da vedacao do Art. 8o, caput."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O disposto no caput nao se aplica: II - aos contratos relacionados a servicos acessorios ou operacionais que viabilizam a oferta de produtos e servicos financeiros e de pagamento, a exemplo dos servicos de tecnologia da informacao, infraestrutura, logistica e rede terceirizada de terminais de autoatendimento."
+keywords: [excecao, servicos_acessorios, servicos_operacionais, infraestrutura, tecnologia]
+vocabulario_conceitos:
+  - termo: servicos acessorios ou operacionais
+    conceito: Servicos de suporte a oferta, como TI, infraestrutura e logistica.
+  - termo: oferta de produtos e servicos
+    conceito: Oferta de produtos e servicos financeiros e de pagamento.
+  - termo: excecao normativa
+    conceito: Hipotese em que a vedacao do caput nao se aplica.
+condicoes:
+  - O contrato deve ter objeto acessorio ou operacional que viabilize a oferta.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-06
+    titulo: Excecao de servicos acessorios e operacionais
+    descricao: expressao "a exemplo" indica rol aberto, sem criterio fechado de enquadramento.

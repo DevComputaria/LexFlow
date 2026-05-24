@@ -1,0 +1,43 @@
+id: bcb-rc-17-r34
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 12
+modalidade: permitido
+regra_sbvr: "E permitido ao BCB baixar normas e adotar medidas necessarias para executar o disposto na resolucao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "O Banco Central do Brasil podera baixar as normas e adotar as medidas necessarias a execucao do disposto nesta Resolucao Conjunta."
+keywords: [competencia_regulatoria, poder_normativo, execucao_normativa, bcb]
+vocabulario_conceitos:
+  - termo: baixar normas
+    conceito: Emitir atos complementares de regulamentacao.
+  - termo: medidas necessarias
+    conceito: Atos administrativos para implementacao da resolucao.
+  - termo: BCB
+    conceito: Autoridade competente para execucao da norma.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

@@ -1,0 +1,44 @@
+id: bcb-rc-17-r26
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 3o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que o prazo definido no plano de adequacao seja, no maximo, de um ano."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O prazo referido no inciso I do paragrafo 2o deve ser de, no maximo, um ano."
+keywords: [plano_de_adequacao, prazo_maximo, um_ano]
+vocabulario_conceitos:
+  - termo: prazo maximo
+    conceito: Limite temporal superior permitido para o plano.
+  - termo: plano de adequacao
+    conceito: Plano formal para tratar desconformidades.
+  - termo: um ano
+    conceito: Horizonte limite para conclusao da adequacao prevista no plano.
+condicoes:
+  - O prazo do plano nao pode exceder um ano.
+periodo_tempo:
+  existe: true
+  descricao: Limite maximo para prazo interno do plano.
+  marco_inicial: definicao_no_plano
+  prazo: P1Y
+  data_limite: variavel
+ambiguidades_relacionadas: []

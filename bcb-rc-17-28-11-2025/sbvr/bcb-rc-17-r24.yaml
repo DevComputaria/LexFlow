@@ -1,0 +1,47 @@
+id: bcb-rc-17-r24
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 9o, paragrafo 2o, inciso I
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que o plano de adequacao contenha, no minimo, procedimentos, etapas e prazo para adequacao com base na complexidade da adequacao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "O plano de adequacao [...] deve: I - compreender, no minimo, os procedimentos e as etapas que serao adotados, bem como o prazo para a instituicao se adequar [...], com base na complexidade da adequacao."
+keywords: [plano_de_adequacao, conteudo_minimo, procedimentos, etapas, complexidade]
+vocabulario_conceitos:
+  - termo: procedimentos e etapas
+    conceito: Acoes e fases de execucao do plano de adequacao.
+  - termo: prazo de adequacao
+    conceito: Horizonte temporal definido para conformidade.
+  - termo: complexidade da adequacao
+    conceito: Grau de esforco necessario para adequar processos e comunicacoes.
+condicoes:
+  - O plano deve conter no minimo os elementos previstos no inciso I.
+periodo_tempo:
+  existe: false
+  descricao: Prazo interno a ser definido no plano.
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-07
+    titulo: Parametro de "complexidade da adequacao"
+    descricao: sem parametro objetivo para graduar complexidade, ha margem para interpretacao divergente.

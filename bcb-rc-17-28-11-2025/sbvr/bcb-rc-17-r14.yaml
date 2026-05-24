@@ -1,0 +1,50 @@
+id: bcb-rc-17-r14
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 7o, inciso II
+modalidade: obrigado
+regra_sbvr: "E obrigatorio fazer constar, na apresentacao ao publico e de forma clara, os servicos financeiros, de ativos virtuais, de consorcio ou de pagamento autorizados."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem fazer constar, em sua apresentacao ao publico, de forma clara: II - os servicos financeiros, de ativos virtuais, de consorcio ou de pagamento autorizados."
+keywords: [servicos_autorizados, ativos_virtuais, consorcio, pagamento, clareza]
+vocabulario_conceitos:
+  - termo: servicos autorizados
+    conceito: Servicos que integram o escopo da autorizacao do BCB.
+  - termo: ativos virtuais
+    conceito: Servicos relacionados a ativos virtuais autorizados.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+condicoes:
+  - A informacao deve estar de forma clara.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

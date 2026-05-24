@@ -1,0 +1,43 @@
+id: bcb-rc-16-r73
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 19, inciso II.
+modalidade: proibido
+regra_sbvr: "E proibido que confederacoes de servico de cooperativas centrais e administradoras de consorcio atuem como prestadoras ou tomadoras de BaaS."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "Fica vedado: II - as confederacoes [...] e as administradoras de consorcio atuar como instituicoes prestadoras [...] ou entidades tomadoras [...]"
+keywords: [sbvr, rc16, bcb, proibido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

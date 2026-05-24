@@ -1,0 +1,43 @@
+id: bcb-rc-16-r14
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 4o, paragrafo 1o, inciso I, alineas a, b e c.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que os servicos do art. 4o sejam prestados apenas por instituicoes do art. 1o, observada autorizacao, rol regulatorio aplicavel e legislacao/regulamentacao vigente."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "Os servicos [...] somente podem ser prestados: I - pelas instituicoes referidas no art. 1o, observada: a) autorizacao de funcionamento [...] b) relacao de operacoes/atividades/servicos [...] c) legislacao e regulamentacao vigentes [...]"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  []

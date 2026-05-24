@@ -1,0 +1,50 @@
+id: bcb-rc-17-r04
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 3o, paragrafo 1o, inciso I
+modalidade: permitido
+regra_sbvr: "E permitido usar o nome do conglomerado na nomenclatura, desde que fique claro ao cliente o tipo de instituicao com que se relaciona."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "E permitido [...] desde que: I - fique claro para o cliente com que tipo de instituicao do conglomerado esta se relacionando, observado o disposto no art. 2o."
+keywords: [conglomerado_prudencial, nomenclatura, clareza_ao_cliente, permissao]
+vocabulario_conceitos:
+  - termo: conglomerado prudencial
+    conceito: Conjunto de instituicoes para fins prudenciais.
+  - termo: cliente
+    conceito: Destinatario da apresentacao e relacionamento.
+  - termo: nomenclatura
+    conceito: Nome empresarial, nome fantasia, marca e dominio de internet.
+condicoes:
+  - Deve ficar claro para o cliente o tipo de instituicao do conglomerado.
+  - Deve observar o disposto no Art. 2o.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).

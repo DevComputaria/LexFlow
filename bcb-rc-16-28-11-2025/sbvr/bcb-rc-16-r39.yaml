@@ -1,0 +1,45 @@
+id: bcb-rc-16-r39
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 7o, paragrafo 5o.
+modalidade: permitido
+regra_sbvr: "E permitido verificar capacidade da tomadora por aderencia comprovada a certificacoes ou por auditoria independente, a criterio da prestadora."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "A capacidade [...] pode, a criterio da instituicao prestadora [...], ser verificada mediante [...] certificacoes [...] ou atestada por auditoria independente."
+keywords: [sbvr, rc16, bcb, permitido]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: true
+  descricao: "Prazo ou periodicidade prevista na regra."
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-06
+    titulo: "Profundidade minima da verificacao de capacidade da tomadora"
+    descricao: "uso de certificacao ou auditoria independente pode variar em abrangencia e evidencia"

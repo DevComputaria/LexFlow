@@ -1,0 +1,44 @@
+id: bcb-rc-17-r06
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 3o, paragrafo 2o
+modalidade: permitido
+regra_sbvr: "E permitido a cooperativa de credito e instituicoes de sistema cooperativo usar termo que identifique o sistema cooperativo na nomenclatura."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: permissao
+      permissoes:
+        - cumprimento_da_regra
+texto_original: "E permitido a cooperativa de credito e demais instituicoes integrantes de sistema cooperativo utilizar, em sua nomenclatura, termo que identifique o sistema cooperativo a que pertenca."
+keywords: [cooperativa_credito, sistema_cooperativo, nomenclatura, permissao]
+vocabulario_conceitos:
+  - termo: cooperativa de credito
+    conceito: Instituicao cooperativa autorizada.
+  - termo: sistema cooperativo
+    conceito: Sistema ao qual a cooperativa e instituicoes relacionadas pertencem.
+  - termo: nomenclatura
+    conceito: Nome empresarial, nome fantasia, marca e dominio de internet.
+condicoes:
+  - Aplicavel a cooperativa de credito e demais instituicoes de sistema cooperativo.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas: []

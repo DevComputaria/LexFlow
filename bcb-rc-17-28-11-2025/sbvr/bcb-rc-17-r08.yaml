@@ -1,0 +1,46 @@
+id: bcb-rc-17-r08
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 5o, caput
+modalidade: proibido
+regra_sbvr: "E proibido usar, na apresentacao ao publico, termos que sugiram atividade ou tipo de instituicao para a qual nao exista autorizacao de funcionamento especifica."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "E vedado [...] utilizar, em sua apresentacao ao publico, termos que sugiram atividade ou tipo de instituicao para a qual nao tenha autorizacao de funcionamento especifica."
+keywords: [vedacao, apresentacao_ao_publico, autorizacao_especifica, tipo_instituicao]
+vocabulario_conceitos:
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+  - termo: termo
+    conceito: Palavra, fragmento, expressao ou frase.
+  - termo: autorizacao de funcionamento especifica
+    conceito: Autorizacao para atividade ou tipo institucional especifico.
+condicoes: []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

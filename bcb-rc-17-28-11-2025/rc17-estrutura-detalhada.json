@@ -1,0 +1,299 @@
+{
+  "norma": {
+    "tipo": "Resolucao Conjunta",
+    "numero": 17,
+    "data": "2025-11-28",
+    "ementa": "Disciplina a nomenclatura e a forma de apresentacao ao publico das instituicoes autorizadas a funcionar pelo Banco Central do Brasil.",
+    "publicacao_dou": "2025-12-01",
+    "entrada_vigor": "2025-12-01"
+  },
+  "estrutura": {
+    "capitulos": [
+      {
+        "id": "I",
+        "titulo": "DO OBJETO E DO AMBITO DE APLICACAO",
+        "artigos": [
+          {
+            "id": 1,
+            "rotulo": "Art. 1",
+            "caput": "Esta Resolucao Conjunta disciplina a nomenclatura e a forma de apresentacao ao publico das instituicoes autorizadas a funcionar pelo Banco Central do Brasil.",
+            "paragrafos": [
+              {
+                "id": "unico",
+                "texto": "Para fins desta Resolucao Conjunta, consideram-se:",
+                "incisos": [
+                  {
+                    "id": "I",
+                    "texto": "nomenclatura: o nome empresarial, o nome fantasia, a marca e o dominio de internet"
+                  },
+                  {
+                    "id": "II",
+                    "texto": "termo: palavra, fragmento de palavra, expressao ou frase, em portugues ou em lingua estrangeira, utilizado na nomenclatura de instituicoes autorizadas a funcionar pelo Banco Central do Brasil"
+                  },
+                  {
+                    "id": "III",
+                    "texto": "apresentacao ao publico: conteudo do conjunto de canais de comunicacao e de atendimento a clientes e usuarios da instituicao autorizada a funcionar pelo Banco Central do Brasil"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "II",
+        "titulo": "DA NOMENCLATURA",
+        "artigos": [
+          {
+            "id": 2,
+            "rotulo": "Art. 2",
+            "caput": "As instituicoes referidas no art. 1 devem utilizar, em seu nome empresarial, termos que estabelecam clara referencia ao objeto da autorizacao para funcionamento concedida pelo Banco Central do Brasil."
+          },
+          {
+            "id": 3,
+            "rotulo": "Art. 3",
+            "caput": "E vedado as instituicoes referidas no art. 1 utilizar, em sua nomenclatura, termo que sugira, literalmente ou por semelhanca morfologica ou fonetica, atividade ou tipo de instituicao para a qual nao tenha autorizacao de funcionamento especifica.",
+            "paragrafos": [
+              {
+                "id": "1",
+                "texto": "E permitido as instituicoes integrantes de conglomerado prudencial a utilizacao do nome do conglomerado em sua nomenclatura, desde que:",
+                "incisos": [
+                  {
+                    "id": "I",
+                    "texto": "fique claro para o cliente com que tipo de instituicao do conglomerado esta se relacionando, observado o disposto no art. 2"
+                  },
+                  {
+                    "id": "II",
+                    "texto": "o nome do conglomerado nao contenha termo que identifique ou caracterize tipo de instituicao sujeita a autorizacao pelo Banco Central do Brasil que nao integre o conglomerado"
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "texto": "E permitido a cooperativa de credito e demais instituicoes integrantes de sistema cooperativo utilizar, em sua nomenclatura, termo que identifique o sistema cooperativo a que pertenca."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "III",
+        "titulo": "DA APRESENTACAO AO PUBLICO",
+        "artigos": [
+          {
+            "id": 4,
+            "rotulo": "Art. 4",
+            "caput": "As instituicoes referidas no art. 1 devem utilizar, em sua apresentacao ao publico, termos que deixem claro aos clientes e usuarios o tipo de instituicao objeto da autorizacao para funcionamento concedida pelo Banco Central do Brasil."
+          },
+          {
+            "id": 5,
+            "rotulo": "Art. 5",
+            "caput": "E vedado as instituicoes referidas no art. 1 utilizar, em sua apresentacao ao publico, termos que sugiram atividade ou tipo de instituicao para a qual nao tenha autorizacao de funcionamento especifica.",
+            "paragrafos": [
+              {
+                "id": "1",
+                "texto": "E permitido as instituicoes integrantes de conglomerado prudencial utilizar, em sua apresentacao ao publico, termo que sugira a atividade, o tipo de instituicao autorizada ou a nomenclatura de uma das instituicoes autorizadas a funcionar pelo Banco Central do Brasil que integrem o conglomerado."
+              },
+              {
+                "id": "2",
+                "texto": "E permitido ao conglomerado prudencial utilizar, em sua apresentacao ao publico, termo ou nomenclatura de uma das instituicoes autorizadas a funcionar pelo Banco Central do Brasil que integrem o conglomerado."
+              },
+              {
+                "id": "3",
+                "texto": "E permitido a cooperativa de credito e as demais instituicoes integrantes de sistema cooperativo utilizar, em sua apresentacao ao publico, termo que identifique o sistema cooperativo a que pertenca."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "rotulo": "Art. 6",
+            "caput": "As instituicoes referidas no art. 1 devem utilizar dominio de internet proprio em todos os e-mails e hiperlinks utilizados em sua apresentacao ao publico e em comunicacoes com clientes e usuarios, realizadas por meio de sistemas eletronicos ou de aplicativos de mensagens."
+          },
+          {
+            "id": 7,
+            "rotulo": "Art. 7",
+            "caput": "As instituicoes referidas no art. 1 devem fazer constar, em sua apresentacao ao publico, de forma clara:",
+            "incisos": [
+              {
+                "id": "I",
+                "texto": "as atividades especificas objeto de autorizacao pelo Banco Central do Brasil"
+              },
+              {
+                "id": "II",
+                "texto": "os servicos financeiros, de ativos virtuais, de consorcio ou de pagamento autorizados"
+              },
+              {
+                "id": "III",
+                "texto": "o conglomerado prudencial ou o sistema cooperativo a que pertencem, quando aplicavel"
+              }
+            ],
+            "paragrafos": [
+              {
+                "id": "unico",
+                "texto": "O disposto no caput se aplica inclusive quando a apresentacao ao publico for disponibilizada por meio de contratos de correspondentes no pais ou de parcerias."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "IV",
+        "titulo": "DOS CONTRATOS E PARCERIAS",
+        "artigos": [
+          {
+            "id": 8,
+            "rotulo": "Art. 8",
+            "caput": "E vedado as instituicoes referidas no art. 1 firmar contratos de correspondente no pais ou estabelecer parcerias para a realizacao de atividades relacionadas a oferta de produtos e servicos financeiros e de pagamento com entidades nao sujeitas a autorizacao de funcionamento pelo Banco Central do Brasil, que utilizem:",
+            "incisos": [
+              {
+                "id": "I",
+                "texto": "em sua nomenclatura, termo que identifique ou caracterize tipo de instituicao sujeita a autorizacao pelo Banco Central do Brasil"
+              },
+              {
+                "id": "II",
+                "texto": "em sua apresentacao ao publico, termos que nao deixem claro para os clientes e usuarios a sua condicao de entidade contratada ou parceira da instituicao autorizada a funcionar pelo Banco Central do Brasil"
+              }
+            ],
+            "paragrafos": [
+              {
+                "id": "1",
+                "texto": "As instituicoes mencionadas no art. 1 devem adotar medidas para adequar os contratos de correspondentes no pais ou de parcerias, firmados antes da data de entrada em vigor desta Resolucao Conjunta, ao disposto no caput, no prazo de um ano, contado a partir da data de entrada em vigor desta Resolucao Conjunta."
+              },
+              {
+                "id": "2",
+                "texto": "O disposto no caput nao se aplica:",
+                "incisos": [
+                  {
+                    "id": "I",
+                    "texto": "aos contratos ou parcerias firmados com entidades promotoras de microcredito, ao amparo da legislacao que dispoe sobre o Programa Nacional de Microcredito Produtivo Orientado - PNMPO, e sobre os empreendimentos de economia solidaria e da Politica Nacional de Economia Solidaria"
+                  },
+                  {
+                    "id": "II",
+                    "texto": "aos contratos relacionados a servicos acessorios ou operacionais que viabilizam a oferta de produtos e servicos financeiros e de pagamento, a exemplo dos servicos de tecnologia da informacao, infraestrutura, logistica e rede terceirizada de terminais de autoatendimento"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "V",
+        "titulo": "DO PLANO DE ADEQUACAO",
+        "artigos": [
+          {
+            "id": 9,
+            "rotulo": "Art. 9",
+            "caput": "As instituicoes referidas no art. 1 devem avaliar sua aderencia ao disposto nesta Resolucao Conjunta.",
+            "paragrafos": [
+              {
+                "id": "1",
+                "texto": "As instituicoes que estejam em desacordo com o disposto nesta Resolucao Conjunta devem elaborar plano de adequacao."
+              },
+              {
+                "id": "2",
+                "texto": "O plano de adequacao mencionado no paragrafo 1 deve:",
+                "incisos": [
+                  {
+                    "id": "I",
+                    "texto": "compreender, no minimo, os procedimentos e as etapas que serao adotados, bem como o prazo para a instituicao se adequar ao disposto nesta Resolucao Conjunta, com base na complexidade da adequacao"
+                  },
+                  {
+                    "id": "II",
+                    "texto": "ser elaborado e apresentado ao Banco Central do Brasil no prazo de cento e vinte dias, contado a partir da data da entrada em vigor desta Resolucao Conjunta"
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "texto": "O prazo referido no inciso I do paragrafo 2 deve ser de, no maximo, um ano."
+              },
+              {
+                "id": "4",
+                "texto": "O disposto no paragrafo 1 nao se aplica:",
+                "incisos": [
+                  {
+                    "id": "I",
+                    "texto": "a situacao em que a adequacao envolve apenas a alteracao do nome empresarial"
+                  },
+                  {
+                    "id": "II",
+                    "texto": "a adequacao dos contratos de correspondentes no pais ou de parcerias, que deve observar o disposto no art. 8, paragrafo 1, desta Resolucao Conjunta"
+                  }
+                ]
+              },
+              {
+                "id": "5",
+                "texto": "As instituicoes de que trata o art. 1 que estejam aderentes ao disposto nesta Resolucao Conjunta, ou que se enquadrem na situacao de que trata o inciso I do paragrafo 4 devem comunicar essa condicao ao Banco Central do Brasil, no prazo de noventa dias, contado a partir da data da entrada em vigor desta Resolucao Conjunta, na forma da regulamentacao especifica."
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "rotulo": "Art. 10",
+            "caput": "A alteracao do nome empresarial, se consistir na unica alteracao necessaria para adequacao ao disposto nesta Resolucao Conjunta, deve:",
+            "incisos": [
+              {
+                "id": "I",
+                "texto": "ser efetuada no prazo de um ano, contado a partir da data da entrada em vigor desta Resolucao Conjunta"
+              },
+              {
+                "id": "II",
+                "texto": "ser comunicada ao Banco Central do Brasil no prazo de noventa dias apos a sua efetivacao"
+              }
+            ],
+            "paragrafos": [
+              {
+                "id": "unico",
+                "texto": "Fica autorizada a alteracao do estatuto ou do contrato social que consista exclusivamente na alteracao do nome empresarial da instituicao para adequacao ao disposto nesta Resolucao Conjunta."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "VI",
+        "titulo": "DISPOSICOES GERAIS",
+        "artigos": [
+          {
+            "id": 11,
+            "rotulo": "Art. 11",
+            "caput": "O disposto nos Capitulos I, II, III e IV desta Resolucao Conjunta aplica-se inclusive aos pedidos de autorizacao ja protocolizados no Banco Central do Brasil."
+          }
+        ]
+      },
+      {
+        "id": "VII",
+        "titulo": "DISPOSICOES FINAIS",
+        "artigos": [
+          {
+            "id": 12,
+            "rotulo": "Art. 12",
+            "caput": "O Banco Central do Brasil podera baixar as normas e adotar as medidas necessarias a execucao do disposto nesta Resolucao Conjunta."
+          },
+          {
+            "id": 13,
+            "rotulo": "Art. 13",
+            "caput": "Fica revogado o art. 8 da Resolucao CMN no 4.935, de 29 de julho de 2021, publicada no Diario Oficial da Uniao de 2 de agosto de 2021."
+          },
+          {
+            "id": 14,
+            "rotulo": "Art. 14",
+            "caput": "Esta Resolucao Conjunta entra em vigor na data de sua publicacao."
+          }
+        ]
+      }
+    ]
+  },
+  "assinaturas": [
+    {
+      "nome": "GABRIEL MURICCA GALIPOLO",
+      "cargo": "Presidente do Banco Central do Brasil"
+    }
+  ],
+  "publicacao": {
+    "dou": "1o/12/2025, Secao 1, p. 117/118",
+    "observacao": "Os textos nao substituem a publicacao no DOU e no Sisbacen."
+  },
+  "assunto": "Disciplina a nomenclatura e a forma de apresentacao ao publico das instituicoes autorizadas a funcionar pelo Banco Central do Brasil."
+}

@@ -1,0 +1,52 @@
+id: bcb-rc-17-r15
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 7o, inciso III
+modalidade: obrigado
+regra_sbvr: "E obrigatorio fazer constar, na apresentacao ao publico e de forma clara, o conglomerado prudencial ou sistema cooperativo a que a instituicao pertence, quando aplicavel."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem fazer constar, em sua apresentacao ao publico, de forma clara: III - o conglomerado prudencial ou o sistema cooperativo a que pertencem, quando aplicavel."
+keywords: [conglomerado_prudencial, sistema_cooperativo, pertencimento, clareza]
+vocabulario_conceitos:
+  - termo: conglomerado prudencial
+    conceito: Conjunto de instituicoes para fins prudenciais.
+  - termo: sistema cooperativo
+    conceito: Sistema de pertencimento de cooperativas e instituicoes relacionadas.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+condicoes:
+  - Aplicar quando houver pertencimento a conglomerado ou sistema cooperativo.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-01
+    titulo: Criterio de "referencia clara" e "deixar claro"
+    descricao: nao ha metrica objetiva de clareza (linguagem minima, destaque, teste de compreensao).
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

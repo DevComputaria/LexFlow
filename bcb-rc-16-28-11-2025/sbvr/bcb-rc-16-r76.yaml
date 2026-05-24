@@ -1,0 +1,43 @@
+id: bcb-rc-16-r76
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 22.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que instituicoes com contrato vigente na entrada em vigor para servicos abrangidos se adequem ao disposto na resolucao ate 31/12/2026."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "[...] que tenham contrato vigente [...] devem adequar-se [...] ate 31 de dezembro de 2026."
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: true
+  descricao: "Adequacao de contratos vigentes na entrada em vigor."
+  marco_inicial: 2025-12-01
+  prazo: ate_2026-12-31
+  data_limite: 2026-12-31
+ambiguidades_relacionadas:
+  []

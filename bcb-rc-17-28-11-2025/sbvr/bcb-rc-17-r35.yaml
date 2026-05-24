@@ -1,0 +1,44 @@
+id: bcb-rc-17-r35
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 13
+modalidade: proibido
+regra_sbvr: "E proibido aplicar o Art. 8o da Resolucao CMN no 4.935/2021 apos a vigencia desta resolucao, em razao de revogacao expressa."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "Fica revogado o art. 8o da Resolucao CMN no 4.935, de 29 de julho de 2021 [...]."
+keywords: [revogacao, resolucao_cmn_4935, art8_revogado]
+vocabulario_conceitos:
+  - termo: revogacao expressa
+    conceito: Retirada formal de vigencia de dispositivo normativo anterior.
+  - termo: Art. 8o da Resolucao CMN 4.935/2021
+    conceito: Dispositivo explicitamente revogado pela nova resolucao.
+  - termo: aplicacao normativa
+    conceito: Uso de regra em atos e decisoes de conformidade.
+condicoes:
+  - Eficacia da revogacao a partir da entrada em vigor da Resolucao Conjunta no 17.
+periodo_tempo:
+  existe: true
+  descricao: Cessacao de aplicabilidade do dispositivo revogado.
+  marco_inicial: 2025-12-01
+  prazo: imediato
+  data_limite: null
+ambiguidades_relacionadas: []

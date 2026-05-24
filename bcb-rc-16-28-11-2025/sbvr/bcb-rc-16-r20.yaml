@@ -1,0 +1,45 @@
+id: bcb-rc-16-r20
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 4o, paragrafo 6o, incisos I e II.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio considerar fora do regramento BaaS contratos para servicos financeiros/de pagamento nao previstos no art. 4o, I a V."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "A celebracao de contrato [...] para servicos [...] nao previstos [...] I - nao se sujeita ao regramento [...] II - nao consiste na prestacao de servico de BaaS"
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-02
+    titulo: "Escopo exclusivo do art. 4o e classificacao de servicos inovadores"
+    descricao: "enquadramento de servicos novos pode variar ate detalhamento adicional do BCB"

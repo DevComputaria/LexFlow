@@ -1,0 +1,50 @@
+id: bcb-rc-17-r12
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 6o
+modalidade: obrigado
+regra_sbvr: "E obrigatorio usar dominio de internet proprio em todos os e-mails e hiperlinks usados na apresentacao ao publico e em comunicacoes com clientes e usuarios por sistemas eletronicos ou aplicativos de mensagens."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "As instituicoes [...] devem utilizar dominio de internet proprio em todos os e-mails e hiperlinks utilizados em sua apresentacao ao publico e em comunicacoes com clientes e usuarios, realizadas por meio de sistemas eletronicos ou de aplicativos de mensagens."
+keywords: [dominio_proprio, email, hiperlink, comunicacao_eletronica, aplicativo_mensagens]
+vocabulario_conceitos:
+  - termo: dominio de internet proprio
+    conceito: Dominio controlado pela propria instituicao autorizada.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+  - termo: comunicacao com clientes e usuarios
+    conceito: Comunicacao por meio eletronico ou app de mensagens.
+condicoes:
+  - Abrange todos os e-mails e hiperlinks utilizados.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-03
+    titulo: Limites de "dominio de internet proprio"
+    descricao: duvida sobre subdominios de terceiros, links encurtados, redirecionamentos e dominios compartilhados.
+  - id: A-04
+    titulo: Escopo de "apresentacao ao publico"
+    descricao: nao ha lista taxativa de canais digitais e fisicos/hibridos.

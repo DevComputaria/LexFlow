@@ -1,0 +1,47 @@
+id: bcb-rc-17-r18
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 8o, caput, inciso II
+modalidade: proibido
+regra_sbvr: "E proibido firmar contrato de correspondente no pais ou parceria com entidade nao autorizada que use, na apresentacao ao publico, termos que nao deixem clara sua condicao de contratada ou parceira."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: proibicao
+      proibicoes:
+        - cumprimento_da_regra
+texto_original: "E vedado [...] com entidades nao sujeitas a autorizacao [...] que utilizem: II - em sua apresentacao ao publico, termos que nao deixem claro para os clientes e usuarios a sua condicao de entidade contratada ou parceira [...]."
+keywords: [vedacao, clareza_condicao, entidade_contratada, entidade_parceira, apresentacao_ao_publico]
+vocabulario_conceitos:
+  - termo: condicao de entidade contratada ou parceira
+    conceito: Identificacao explicita do papel da entidade perante clientes e usuarios.
+  - termo: entidade nao autorizada
+    conceito: Entidade nao sujeita a autorizacao de funcionamento pelo BCB.
+  - termo: apresentacao ao publico
+    conceito: Conteudo de canais de comunicacao e atendimento.
+condicoes:
+  - Contratos e parcerias para oferta de produtos e servicos financeiros e de pagamento.
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-05
+    titulo: Fronteira de "atividades relacionadas a oferta"
+    descricao: classificacao entre atividade principal e atividade acessoria pode variar por modelo de negocio.

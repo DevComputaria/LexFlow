@@ -1,0 +1,46 @@
+id: bcb-rc-17-r30
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 17
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 10, inciso I
+modalidade: obrigado
+regra_sbvr: "E obrigatorio efetuar, em ate um ano da entrada em vigor, a alteracao do nome empresarial quando ela for a unica alteracao necessaria para adequacao."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - nomenclatura_apresentacao_publico
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: true
+      regras:
+        - tipo: condicao_normativa
+          descricao: "Aplicar condicoes expressas na regra e na fonte normativa."
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+texto_original: "A alteracao do nome empresarial, se consistir na unica alteracao necessaria para adequacao ao disposto nesta Resolucao Conjunta, deve: I - ser efetuada no prazo de um ano, contado a partir da data da entrada em vigor desta Resolucao Conjunta."
+keywords: [alteracao_nome_empresarial, prazo_um_ano, adequacao]
+vocabulario_conceitos:
+  - termo: nome empresarial
+    conceito: Elemento formal da nomenclatura da instituicao.
+  - termo: unica alteracao necessaria
+    conceito: Situacao em que somente o nome empresarial precisa mudar.
+  - termo: adequacao
+    conceito: Ajuste para conformidade com a resolucao.
+condicoes:
+  - Aplicavel apenas quando a alteracao do nome for a unica alteracao necessaria.
+periodo_tempo:
+  existe: true
+  descricao: Execucao da alteracao do nome empresarial.
+  marco_inicial: 2025-12-01
+  prazo: P1Y
+  data_limite: 2026-12-01
+ambiguidades_relacionadas: []

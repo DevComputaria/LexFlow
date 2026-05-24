@@ -1,0 +1,94 @@
+id: bcb-rc-16-r08
+referencia_normativa:
+  ato: Resolucao Conjunta
+  numero: 16
+  data: 2025-11-28
+  publicacao_dou: 2025-12-01
+  vigencia: 2025-12-01
+artigo: Art. 4o, caput.
+modalidade: obrigado
+regra_sbvr: "E obrigatorio que o contrato de BaaS tenha escopo exclusivamente de um ou mais servicos do art. 4o, caput."
+sbvr:
+  scd:
+    scope:
+      atores:
+        - instituicao_autorizada_bcb
+      contexto:
+        - baas
+      papeis:
+        - sujeito_regulado
+    condition:
+      existe: false
+      regras: []
+    demand:
+      modalidade: obrigacao
+      obrigacoes:
+        - cumprimento_da_regra
+      objeto_da_obrigacao:
+        tipo: escopo_servicos_baas
+        referencia: Art. 4o, caput, incisos I a V
+        servicos:
+          - id: I
+            nome: abertura_manutencao_encerramento_contas
+            subtipos:
+              - depositos_a_vista
+              - depositos_de_poupanca
+              - conta_de_pagamento_pre_paga
+              - conta_de_pagamento_pos_paga
+          - id: II
+            nome: servicos_de_pagamento_por_meio_das_contas_do_inciso_I
+          - id: III
+            nome: credenciamento_a_aceitacao_de_instrumentos_de_pagamento
+          - id: IV
+            nome: operacoes_de_credito
+            escopo:
+              - oferta
+              - contratacao
+              - administracao
+              - cobranca
+          - id: V
+            nome: outros_servicos_incluidos_pelo_bcb
+            referencia_complementar: art_23_caput_inciso_II
+texto_original: "O contrato de prestacao de servicos de BaaS deve ter como escopo exclusivamente um ou mais dos seguintes servicos: I - abertura, manutencao e encerramento de contas de: a) depositos a vista; b) depositos de poupanca; c) pagamento pre-pagas; ou d) pagamento pos-pagas; II - prestacao de servicos de pagamento realizados por meio das contas de que trata o inciso I; III - prestacao de servicos de credenciamento a aceitacao de instrumentos de pagamento em arranjos de pagamento; IV - prestacao de servicos de operacoes de credito, incluindo oferta, contratacao, administracao e cobranca; e V - outros servicos que vierem a ser incluidos, conforme disposto no art. 23, caput, inciso II."
+servicos_art4_catalogo:
+  referencia: Art. 4o, caput, incisos I a V
+  tipos:
+    - inciso: I
+      descricao: abertura, manutencao e encerramento de contas
+      contas:
+        - depositos_a_vista
+        - depositos_de_poupanca
+        - pagamento_pre_pagas
+        - pagamento_pos_pagas
+    - inciso: II
+      descricao: servicos de pagamento por meio das contas do inciso I
+    - inciso: III
+      descricao: servicos de credenciamento a aceitacao de instrumentos de pagamento
+    - inciso: IV
+      descricao: operacoes de credito
+      inclui:
+        - oferta
+        - contratacao
+        - administracao
+        - cobranca
+    - inciso: V
+      descricao: outros servicos incluidos pelo BCB
+      referencia: art_23_caput_inciso_II
+keywords: [sbvr, rc16, bcb, obrigado]
+vocabulario_conceitos:
+  - termo: instituicao autorizada
+    conceito: Instituicao autorizada a funcionar pelo BCB no contexto do BaaS.
+  - termo: prestacao de servicos de BaaS
+    conceito: Relacao contratual entre prestadora e tomadora para disponibilizacao de servicos ao cliente.
+condicoes:
+  []
+periodo_tempo:
+  existe: false
+  descricao: null
+  marco_inicial: null
+  prazo: null
+  data_limite: null
+ambiguidades_relacionadas:
+  - id: A-02
+    titulo: "Escopo exclusivo do art. 4o e classificacao de servicos inovadores"
+    descricao: "enquadramento de servicos novos pode variar ate detalhamento adicional do BCB"
